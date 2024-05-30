@@ -90,4 +90,47 @@ CDN(콘텐츠 전송 네트워크)은 지리적으로 분산된 여러 개의 �
     
     - `:active` : 활성화 순간
 
+  
+    ### HTML태그에 직접 스타일을 주기✨
+    태그를 css에서 직접 언급을 하여 스타일을 줄 수 있습니다 
 
+    ```css
+    div {
+
+      color:red;
+
+    }
+    ```
+
+    이렇게하면 스타일을 구지 일일히 만들고 적용하지 않아도 모든 div 태그에 자동으로 color:red 가 적용이됩니다
+
+    내가 어떤태그에 공통적인스타일을줘야한다 할때 쓰면 유용한 방식입니다.
+
+    ### padding or margin🎈
+
+    padding 또는 margin은 1개 2개 그리고 3개의 값을 가질 수 있음
+
+    `padding: 20px`   => top, left, bottom, right 모든 방향에 20px의 공간을줌
+
+    `padding: 20px 10px` => 세로방향 (top, bottom)에는 20px의 공간을 가로방향 (left, right)에는 10px 만큼의 공간적용
+
+    `padding: 10px 20px 30px 40px` => 첫번째부터 top, left, bottom, right 순서로 공간을적용함
+    
+    👉🏻[링크참조](https://www.w3schools.com/css/css_margin.asp)
+
+    ### CSS 정리🏋️‍♂️
+
+    - `display` : 요소가 어떻게 보여질지를 결정
+    - `border: 1px solid red;` - 테두리를 그려준다 (두께, 스타일, 색깔)
+    - `border-radius` : 모서리를 둥게함 
+    - `width` : 넓이 지정
+    - `height` : 높이 지정
+    - `position` : html태그를 위치시키는 방식 지정 (다음 챕터에서 다룰 예정^^)
+    - `background-color` : 배경색
+    - `font-family` : 폰트 스타일
+    - `box-shadow` : 박스뒤에 그림자 
+    - `color` : 글씨색 (16진수, rgb, 색깔이름 이렇게 세가지로 표현 가능)
+  
+    ➡ 맘에드는 스타일 발견 -> selector로 선택 -> 스타일확인 -> 내 코드에서 스타일만들어서 적용 -> html에 적용 -> 확인
+
+    

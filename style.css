@@ -23,16 +23,8 @@ a {
   text-decoration: none;
 }
 
-.f-le {
-  float: left;
-}
-
 .m-auto {
   margin: 0 auto;
-}
-
-.m-top {
-  margin-top: 20px;
 }
 
 /* header 영역 */
@@ -68,7 +60,7 @@ a {
   font-size: 16px;
   display: block;
   width: 100px;
-  color:#717271;
+  color:#202124;
   font-weight: 500;
 }
  
@@ -101,11 +93,11 @@ a {
 
 .top-nav ul li a{
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   line-height: 36px;
-  width: 36px;
-  color:#717271;
+  width: 42px;
+  color:#202124;
 }
  
 .top-nav ul li a:hover{
@@ -114,7 +106,7 @@ a {
 
 .top-nav ul li span {
   padding: 6px;
-  color:#717271;
+  color:#202124;
 }
 
 .profile_img_wrap{
@@ -151,8 +143,8 @@ a {
 
 .searchbar-wrap{
   border: solid 1px #999fa6;
-  width: 490px;
-  height: 50px;
+  width: 560px;
+  height: 44px;
   border-radius: 25px;
   display: flex;
   justify-content: space-evenly;
@@ -169,14 +161,14 @@ a {
 }
 
 .searchbar-wrap i{
-  line-height: 50px;
+  line-height: 44px;
   color : #999fa6;
   margin: 0 8px;
 }
 
 .search-input{
   width:400px;
-  height:50px;
+  height:44px;
   font-size: 16px;
   border: none;
   outline: none;
@@ -187,7 +179,7 @@ a {
 }
 
 .buttons button{
-  background-color:    #f0f1f0;
+  background-color: #f8f9fa;;
   border:  0;
   height: 30px;
   padding-left: 15px;
@@ -195,7 +187,15 @@ a {
   margin:5px;
   border-radius: 5px;
   font-size: 14px;
-  color: #5F6368;
+  color: #3c4043;
+}
+
+.buttons button:hover{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+
 }
 
 /* 하단 영역 */
@@ -203,21 +203,21 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #f1f2f1;
+  background: #f2f2f2;
   color: #202124;
   font-size:15px;
 
 }
 
 .country{
-  border-bottom: solid 1px #e3e4e3;;
+  border-bottom: solid 1px #dadce0;;
   padding-left: 32px;
   line-height: 50px;
   height: 50px;
 }
 
 .foot-links-wrap{
-  border-top: solid 1px #e3e4e3;
+  border-top: solid 1px #dadce0;
   padding-left: 32px;
   line-height: 50px;
   height: 50px;
