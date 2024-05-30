@@ -5,6 +5,7 @@
 
 ## 📌 데모 링크
 
+<a href="https://tranquil-sfogliatella-e9d6b5.netlify.app/" target="_blank">구글 웹 사이트 만들기</a>
 
 ## 📌 강의내용 정리
 
@@ -133,4 +134,4 @@ CDN(콘텐츠 전송 네트워크)은 지리적으로 분산된 여러 개의 �
   
     ➡ 맘에드는 스타일 발견 -> selector로 선택 -> 스타일확인 -> 내 코드에서 스타일만들어서 적용 -> html에 적용 -> 확인
 
-    
+
